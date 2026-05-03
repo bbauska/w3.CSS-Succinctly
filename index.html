@@ -835,15 +835,13 @@ that indicates the column should take the remaining row width.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch2-2-4">2.2.4 Show and hide columns</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>By default, all columns are visible on every device. However, that might
-not be the best approach for your website. For our example, we might
-want to skip the background column when viewing the site on a mobile
-device. For a restaurant site, you might consider the directions column
-critical when displaying the site on a mobile device, but hide it when
-viewing the site on a desktop device.</p>
+<p>By default, all columns are visible on every device. However, that might not be the best approach 
+for your website. For our example, we might want to skip the background column when viewing the site 
+on a mobile device. For a restaurant site, you might consider the directions column critical when 
+displaying the site on a mobile device, but hide it when viewing the site on a desktop device.</p>
 
-<p>We can do this by adding the appropriate class (<b>w3-hide-small</b>) from
-the following list to the column we want to hide:</p>
+<p>We can do this by adding the appropriate class (<b>w3-hide-small</b>) from the following list to 
+the column we want to hide:</p>
 
 <ul>
   <li><b>w3-hide-small</b>: Don't show column on a small device.</li>
@@ -851,8 +849,8 @@ the following list to the column we want to hide:</p>
   <li><b>w3-hide-large</b>: Don't show column on a large device.</li>
 </ul>
 
-<p>When we add <b>w3-hide-small</b> to the background column, the screen will
-appear as shown in Figure 7 when viewed on a mobile device.</p>
+<p>When we add <b>w3-hide-small</b> to the background column, the screen will appear as shown in 
+Figure 7 when viewed on a mobile device.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 7</i></small></small></p>
 
@@ -872,17 +870,15 @@ appear as shown in Figure 7 when viewed on a mobile device.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3">2.3 CSS grid</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The framework's grid system works just as the responsive system (meaning
-all columns must be contained with a <b>w3-row</b>), but relies on
-<b>w3-col</b> and <b>sizing</b> (based on 12 columns) to determine the column
-sizes.</p>
+<p>The framework's grid system works just as the responsive system (meaning all columns must be 
+contained with a <b>w3-row</b>), but relies on <b>w3-col</b> and <b>sizing</b> (based on 12 columns) 
+to determine the column sizes.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch2-3-1">2.3.1 Column widths</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Each column is 8.33 percent (one-twelfth) of the container width, and
-you can specify the number of columns to display for device sizes. If
-nothing is specified for a particular device size, it is assumed to be
-12 columns:</p>
+<p>Each column is 8.33 percent (one-twelfth) of the container width, and you can specify the number 
+of columns to display for device sizes. If nothing is specified for a particular device size, it is 
+assumed to be 12 columns:</p>
 
 <ul>
   <li><b>s1</b> -- <b>s12</b>: Small (< 601 pixels)</li>
@@ -944,23 +940,21 @@ nothing is specified for a particular device size, it is assumed to be
 
 <p style="text-align:center"><i>Figure 10: Large size (&gt; 992 pixels)</i></p>
 
-<p>By setting the <b>w3-col</b> and appropriate sizing in the grid, you can
-easily have your website adapt its appearance to the device size.</p>
-<p>Note that you can also use the <b>w3-hide-size</b> classes to hide columns
-on different devices; however, be sure to adjust your size classes to
-avoid creating empty gaps. In our example code, if we wanted to hide the
-description column on a small device, the previous two columns should
-use <b>s6</b> sizing, rather than <b>s3.</b></p>
+<p>By setting the <b>w3-col</b> and appropriate sizing in the grid, you can easily have your website 
+adapt its appearance to the device size.</p>
+
+<p>Note that you can also use the <b>w3-hide-size</b> classes to hide columns on different devices; 
+however, be sure to adjust your size classes to avoid creating empty gaps. In our example code, if we 
+wanted to hide the description column on a small device, the previous two columns should use <b>s6</b> 
+sizing, rather than <b>s3.</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4">2.4 CSS display</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The <b>w3-display-container</b> class allows you to display HTML elements
-at specific locations within other elements. For example, you might want
-to design a box where the close icon is always in the upper-right
-corner, while the Save and Cancel options always appear in the lower
-right. By using the <b>w3-display-container</b> class, you can position
-elements using class names that represent relative positions with the
-container.</p>
+<p>The <b>w3-display-container</b> class allows you to display HTML elements at specific locations 
+within other elements. For example, you might want to design a box where the close icon is always 
+in the upper-right corner, while the Save and Cancel options always appear in the lower right. By 
+using the <b>w3-display-container</b> class, you can position elements using class names that 
+represent relative positions with the container.</p>
 
 <p>Figure 11 shows where the class names place the elements within the container.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3279,22 +3273,20 @@ envelope icon.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch12">Chapter 12 Animations</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Animation is a CSS technique that causes elements to gradually appear on
-the website. Judicious use of animation can make a website seem
-friendlier. For most people, things that appear suddenly in front of us
-are startling, and possibly dangerous. A dialog box that gradually fades
-in can provide a smooth, less jarring interface.</p>
+<p>Animation is a CSS technique that causes elements to gradually appear on the website. Judicious 
+use of animation can make a website seem friendlier. For most people, things that appear suddenly 
+in front of us are startling, and possibly dangerous. A dialog box that gradually fades in can 
+provide a smooth, less jarring interface.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch12-1">12.1 Animating elements</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>To animate any element's appearance on the page, you simply need to add
-the class indicating how you want the element to appear. There are
-several classes for animation.</p>
+<p>To animate any element's appearance on the page, you simply need to add the class indicating how 
+you want the element to appear. There are several classes for animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch12-1-1">12.1.1 Directions</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can animate the element from the top or bottom, or from either side.
-The following classes are used for directional animation:</p>
+<p>You can animate the element from the top or bottom, or from either side. The following classes 
+are used for directional animation:</p>
 
 <ul>
   <li><b>w3-animate-top</b>: Slides element down from the top.</li>
@@ -3305,38 +3297,32 @@ The following classes are used for directional animation:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch12-1-2">12.1.2 Zooming</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The zooming animation gradually increases the element's size from 0 to
-100 percent. The animation occurs over six-tenths of a second. The
-<b>w3-animate-zoom</b> class attached to the element performs the zooming
-animation.</p>
+<p>The zooming animation gradually increases the element's size from 0 to 100 percent. The animation 
+occurs over six-tenths of a second. The <b>w3-animate-zoom</b> class attached to the element performs 
+the zooming animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch12-1-3">12.1.3 Opacity</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Opacity is a setting that determines how transparent an element appears
-on the screen. A setting of <b>1</b> is totally opaque. Lower values create
-a translucent effect on the element. The W3.CSS framework provides two
-classes to animate the opacity of the element.</p>
+<p>Opacity is a setting that determines how transparent an element appears on the screen. A setting 
+of <b>1</b> is totally opaque. Lower values create a translucent effect on the element. The W3.CSS 
+framework provides two classes to animate the opacity of the element.</p>
 
 <h5>Animate opacity</h5>
 
-<p>Adding the <b>w3-animate-opacity</b> class causes a fade-in effect, where
-the element goes from totally translucent (invisible) to opaque in 1.5
-seconds. You can use this effect with a modal dialog to gradually bring
-up the dialog box.</p>
+<p>Adding the <b>w3-animate-opacity</b> class causes a fade-in effect, where the element goes from 
+totally translucent (invisible) to opaque in 1.5 seconds. You can use this effect with a modal 
+dialog to gradually bring up the dialog box.</p>
 
 <h5>Fading</h5>
 
-<p>The <b>w3-animate-fading</b> class creates a fade-in and then fade-out
-effect on the element, where the opacity will go from 0 to 1 in 1.5
-seconds, and then from 1 to 0 again.</p>
+<p>The <b>w3-animate-fading</b> class creates a fade-in and then fade-out effect on the element, 
+where the opacity will go from 0 to 1 in 1.5 seconds, and then from 1 to 0 again.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch12-2">12.2 Spinner</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The <b>w3-spin</b> class causes the element to rotate 360 degrees and can
-be used to suggest to a user that a process is running. If you install
-Font Awesome, there are a few icons that make effective spinners to
-indicate a process is running. The code snippet below shows a spinning
-icon.</p>
+<p>The <b>w3-spin</b> class causes the element to rotate 360 degrees and can be used to suggest to 
+a user that a process is running. If you install Font Awesome, there are a few icons that make 
+effective spinners to indicate a process is running. The code snippet below shows a spinning icon.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 63</i></small></small></p>
 
@@ -3374,31 +3360,28 @@ the spinner still moving, and complain about performance.</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch12-3">12.3 Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Animation can improve the general feel of a site, making your pop-up
-dialog boxes appear smoother, and allowing you to show processing
-activities. The W3.CSS animation classes make it easy to add animation.</p>
+<p>Animation can improve the general feel of a site, making your pop-up dialog boxes appear smoother, 
+and allowing you to show processing activities. The W3.CSS animation classes make it easy to add 
+animation.</p>
 
-<p>If the animation speed is too fast or slow, you can easily clone the
-base CSS classes and create a <b>w3-animate-zoom-slowly</b> class, simply
-by adjusting the number of seconds that the animation takes. If you
-consider this approach, be sure to create a separate CSS so you won't
-lose your changes if you update the W3.CSS framework.</p>
+<p>If the animation speed is too fast or slow, you can easily clone the base CSS classes and create 
+a <b>w3-animate-zoom-slowly</b> class, simply by adjusting the number of seconds that the animation 
+takes. If you consider this approach, be sure to create a separate CSS so you won't lose your changes 
+if you update the W3.CSS framework.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch13">Chapter 13 Modals</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Modal dialogs are pop-up windows that appear on a website, overwriting
-the content beneath the dialog. In general, they are forms for the user
-to complete for tasks such as editing a customer or selecting airlines.
-W3.CSS allows you to create a modal form and keep it hidden until some
-button or action triggers the modal to display.</p>
+<p>Modal dialogs are pop-up windows that appear on a website, overwriting the content beneath the 
+dialog. In general, they are forms for the user to complete for tasks such as editing a customer 
+or selecting airlines. W3.CSS allows you to create a modal form and keep it hidden until some button 
+or action triggers the modal to display.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch13-1">13.1 Creating a modal dialog</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>To create a modal dialog, you need to use the <b>w3-modal</b> class for the
-container <b>&lt;div&gt;</b> that will hold the modal dialog's contents. You
-will also need to ensure that this container has a unique ID, since
-you'll need it to open the modal dialog. The following code snippet
-shows the basic setup for the modal container.</p>
+<p>To create a modal dialog, you need to use the <b>w3-modal</b> class for the container 
+<b>&lt;div&gt;</b> that will hold the modal dialog's contents. You will also need to ensure that 
+this container has a unique ID, since you'll need it to open the modal dialog. The following code 
+snippet shows the basic setup for the modal container.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 64</i></small></small></p>
 
@@ -3407,9 +3390,8 @@ shows the basic setup for the modal container.</p>
 &lt;/div&gt;
 </pre>
 
-<p>The actual content of the modal dialog is wrapped within the
-<b>w3-modal-content</b> class. The wrapper structure looks as shown in the
-following.</p>
+<p>The actual content of the modal dialog is wrapped within the <b>w3-modal-content</b> class. 
+The wrapper structure looks as shown in the following.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 65</i></small></small></p>
 
@@ -3423,9 +3405,8 @@ following.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch13-2">13.2 Displaying the modal</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>To display the modal dialog, you will need some simple JavaScript and a
-button. For example, if we wanted to display the Contact Us modal
-dialog, we could use the following code.</p>
+<p>To display the modal dialog, you will need some simple JavaScript and a button. For example, if 
+we wanted to display the Contact Us modal dialog, we could use the following code.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 66</i></small></small></p>
 
@@ -3435,16 +3416,14 @@ dialog, we could use the following code.</p>
 &lt;/button&gt;
 </pre>
 
-<p>When the user clicks the <b>Contact Us</b> button, the modal dialog's
-display style is set to <b>block</b>, causing the dialog to pop up on the
-user screen.</p>
+<p>When the user clicks the <b>Contact Us</b> button, the modal dialog's display style is set to 
+<b>block</b>, causing the dialog to pop up on the user screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch13-2-1">13.2.1 Animating the display</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The modal dialog will suddenly pop up on the screen. While this is
-common in websites, it can sometimes have a jarring effect. You can take
-advantage of the animation classes to present a smoother appearance of
-the modal. Simply add the desired animation class to the container
+<p>The modal dialog will suddenly pop up on the screen. While this is common in websites, it can 
+sometimes have a jarring effect. You can take advantage of the animation classes to present a 
+smoother appearance of the modal. Simply add the desired animation class to the container 
 <b>&lt;div&gt;</b>, as follows.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 67</i></small></small></p>
@@ -3454,17 +3433,15 @@ the modal. Simply add the desired animation class to the container
 &lt;/div&gt;
 </pre>
 
-<p>This will cause the modal dialog to fade in, rather than just quickly
-appear.</p>
+<p>This will cause the modal dialog to fade in, rather than just quickly appear.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch13-3">13.3 Closing the modal dialog</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Once the modal dialog is opened, it will stay on the screen (since the
-display style is now set to <b>block</b>). You will need to add some
-imbedded JavaScript code to allow the user to close the modal dialog.
-Typically, this is triggered by clicking the X icon in the upper-right
-corner, although if the modal dialog saves information, you would put
-the close code into the buttons that save and/or cancel the dialog.</p>
+<p>Once the modal dialog is opened, it will stay on the screen (since the display style is now set 
+to <b>block</b>). You will need to add some imbedded JavaScript code to allow the user to close the 
+modal dialog. Typically, this is triggered by clicking the X icon in the upper-right corner, although 
+if the modal dialog saves information, you would put the close code into the buttons that save and/or 
+cancel the dialog.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 68</i></small></small></p>
 
@@ -3478,19 +3455,17 @@ the close code into the buttons that save and/or cancel the dialog.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch13-4">13.4 Summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Modal dialogs are typically used to overlay the website and provide a
-dialog for the user to focus on. The framework requires a little
-additional markup and some JavaScript to open and close the dialog.</p>
+<p>Modal dialogs are typically used to overlay the website and provide a dialog for the user to focus 
+on. The framework requires a little additional markup and some JavaScript to open and close the 
+dialog.</p>
 
-<p>Animating the dialog opening will add a smoother feel to the site, and
-you should consider adding one of the animation classes to the modal
-container.</p>
+<p>Animating the dialog opening will add a smoother feel to the site, and you should consider adding 
+one of the animation classes to the modal container.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch14">Chapter 14 Images</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can use the <b>&lt;img&gt;</b> tag to display a picture on a website. The
-W3.CSS framework provides several classes that can be used to control
-the image's borders and appearance.</p>
+<p>You can use the <b>&lt;img&gt;</b> tag to display a picture on a website. The W3.CSS framework 
+provides several classes that can be used to control the image's borders and appearance.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch14-1">14.1 CSS Images</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3554,8 +3529,8 @@ size), you need to set the width property to 100% (via an inline style).</i>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-2">14.1.2 Image opacity</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can use the opacity classes to set the opacity of the image from 25
-percent to 75 percent. The class names are:</p>
+<p>You can use the opacity classes to set the opacity of the image from 25 percent to 75 percent. 
+The class names are:</p>
 
 <ul>
   <li><b>w3-opacity-min</b>: 75 percent opacity</li>
@@ -3577,8 +3552,8 @@ percent to 75 percent. The class names are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-3">14.1.3 Grayscale</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can use the grayscale classes to set the level of grayscale for an
-image. The class names are:</p>
+<p>You can use the grayscale classes to set the level of grayscale for an image. The class names 
+are:</p>
 
 <ul>
   <li>w3-grayscale-min: Minimal grayscale effect.</li>
@@ -3600,10 +3575,9 @@ image. The class names are:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-4">14.1.4 CSS slideshow</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can use the W3.CSS framework and a bit of JavaScript to create a
-slideshow of images. Figure 55 shows the basic appearance of the
-slideshow. The user can click the buttons to move among the images in
-the slideshow.</p>
+<p>You can use the W3.CSS framework and a bit of JavaScript to create a slideshow of images. Figure 
+55 shows the basic appearance of the slideshow. The user can click the buttons to move among the 
+images in the slideshow.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 66. slideshow image with arrows example (77) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed" 
@@ -3613,14 +3587,13 @@ the slideshow.</p>
   alt="Slideshow image with arrows example."
   style="border: 2px solid #000000; width:2.03in;" />
 
-<p style="text-align:center"><small><small><i>Figure 55: Slideshow</i></small></small></p>
+<p style="text-align:center"><i>Figure 55: Slideshow</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-5">14.1.5 Setting the images</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The first step is to add the images you want to view and assign them the
-same class name.</p>
-<p>The following snippet shows the image setup and the two buttons for
-navigation.</p>
+<p>The first step is to add the images you want to view and assign them the same class name.</p>
+
+<p>The following snippet shows the image setup and the two buttons for navigation.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 70</i></small></small></p>
 
@@ -3637,15 +3610,13 @@ navigation.</p>
 &lt;/div&gt;
 </pre>
 
-<p>The HTML entities are used for the buttons to provide the navigation
-arrows. We will need a JavaScript function called <b>plusDivs()</b> to move
-among the images.</p>
+<p>The HTML entities are used for the buttons to provide the navigation arrows. We will need a 
+JavaScript function called <b>plusDivs()</b> to move among the images.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4 id="ch14-1-6">14.1.6 JavaScript code</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>The following is the code that needs to be added within a script tag in
-the <b>&lt;head&gt;</b> section of the website to allow the navigation between
-images.</p>
+<p>The following is the code that needs to be added within a script tag in the <b>&lt;head&gt;</b> 
+section of the website to allow the navigation between images.</p>
 
 <p style="text-align:left;"><small><small><i>Code Listing 71</i></small></small></p>
 
@@ -3670,10 +3641,9 @@ function showDivs(n) {
 &lt;/script&gt;
 </pre>
 
-<p>The script declares a variable (<b>slideIndex</b>) to keep track of the
-currently selected image and initializes it to the first image. The
-buttons will call the <b>plusDivs()</b> function with a parameter
-indicating the next image to display.</p>
+<p>The script declares a variable (<b>slideIndex</b>) to keep track of the currently selected image 
+and initializes it to the first image. The buttons will call the <b>plusDivs()</b> function with a 
+parameter indicating the next image to display.</p>
 
 <p><b>ShowDivs()</b> will simply set the display style of all the images to <b>none</b>, and then 
 set the selected image's style to <b>block</b>, causing it to be shown.</p>
@@ -3697,7 +3667,7 @@ demo of a responsive website for a mail client. Figure 56 shows the sample templ
   alt="w3 CSS responsive website example." 
   style="border: 2px solid #000000; width:6.5in;" />
 
-<p style="text-align:center"><small><small><i>Figure 56: Email template</i></small></small></p>
+<p style="text-align:center"><i>Figure 56: Email template</i></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch15-1">15.1 Head section</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
