@@ -1,5 +1,5 @@
 /* w3.CSS-Succinctly/css/styles.css for CSS-Succinctly.bauska.org */
-img.displayed {
+.displayed {
   display: block;
   margin: 0 auto; 
 }
