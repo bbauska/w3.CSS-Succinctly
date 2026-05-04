@@ -176,6 +176,17 @@ pre[href]:hover  {
 pre:hover, pre:focus { 
   width: 400px; 
 }
+table {
+  table-layout: fixed;
+  width: 120px;
+  border: 1px solid red;
+}
+td {
+  border: 1px solid blue;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
